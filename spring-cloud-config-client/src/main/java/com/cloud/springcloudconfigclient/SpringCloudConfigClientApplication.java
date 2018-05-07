@@ -20,7 +20,6 @@ public class SpringCloudConfigClientApplication {
 	@RequestMapping(value = "/hi")
 	public String hi(){
 		return foo;
-
 	}
 
 }
