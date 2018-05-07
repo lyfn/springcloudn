@@ -1,0 +1,13 @@
+package com.cloud.springcloudfeign.feign.impl;
+
+import com.cloud.springcloudfeign.feign.SchedualServiceHi;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SchedualServiceHiHystric implements SchedualServiceHi {
+
+    @Override
+    public String sayHiFromClientOne(String name) {
+        return "sorry "+name;
+    }
+}
