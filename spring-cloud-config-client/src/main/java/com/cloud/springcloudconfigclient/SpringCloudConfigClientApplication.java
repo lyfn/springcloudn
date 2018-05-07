@@ -22,4 +22,5 @@ public class SpringCloudConfigClientApplication {
 		return foo;
 
 	}
+
 }
