@@ -14,7 +14,7 @@ public class SpringCloudConfigClientApplication {
 		SpringApplication.run(SpringCloudConfigClientApplication.class, args);
 	}
 
-	@Value("${foo}")
+	@Value("${democonfigclient.message}")
 	String foo;
 
 	@RequestMapping(value = "/hi")
