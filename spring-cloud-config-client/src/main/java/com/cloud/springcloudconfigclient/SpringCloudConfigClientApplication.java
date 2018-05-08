@@ -21,6 +21,4 @@ public class SpringCloudConfigClientApplication {
 	public String hi(){
 		return foo;
 	}
-
-
 }
